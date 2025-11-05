@@ -1,0 +1,159 @@
+
+
+body{
+  background: linear-gradient(to bottom , var(--sl-color-primary-4), var(--sl-color-neutral-2));
+}
+
+/*navigace------------------------------------------------------------------------------*/
+.menu ul{
+    list-style-type: none;
+    list-style: none;
+    overflow: hidden;
+    justify-content: center;
+    background-color: var(--sl-color-primary-1);
+    padding: var(--space-0);
+    margin: var(--space-0);
+    
+
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    padding: var(--space-3) var(--space-3);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;  
+    text-decoration: none;
+    color: var(--sl-color-neutral-1);
+    
+}
+
+.menu ul li a:hover{
+    background-color: var(--sl-color-primary-3);
+    color: var(--sl-color-neutral-1);
+
+}
+
+.menu ul li a.active{
+    background-color: var(--sl-color-primary-2);  
+    color: var(--sl-color-neutral-2) 
+}
+
+.menu img{
+  
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: var(--space-2);
+
+}
+/*navigace------------------------------------------------------------------------------*/
+
+/*Hero sekce----------------------------------------------------------------------------*/
+.hero-image{
+  background-image: url("Naboje.jpg");;
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text{
+  position: relative;
+  color: var(--sl-color-neutral-2);
+  max-width: 100%;
+  padding: var(--space-4);
+}
+
+/*Hero sekce----------------------------------------------------------------------------*/
+
+/*Container a box-----------------------------------------------------------------------*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-2);
+}
+
+.box {
+  border:var(--border-1);
+  border-radius: var(--border-radius-1); 
+  flex: 1;                        
+  background-color: var(--sl-color-primary-1);      
+  padding: var(--space-2);
+  text-align: center;
+  
+}
+
+.box ul{
+    text-align: left;
+}
+
+/*Container a box-----------------------------------------------------------------------*/
+
+/*Tlačítko----------------------------------------------------------*/
+
+.button {
+  border: none;
+  color: var(--sl-color-neutral-2);
+  background-color: var(--sl-color-primary-2);
+  padding: var(--space-3) var(--space-4);
+  text-align: center;
+  text-decoration: none;
+  font-size: var(--font-size-xs);
+  border-radius: var(--border-radius-1);
+  outline: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button a{
+  text-decoration: none;
+
+}
+
+/*Tlačítko----------------------------------------------------------*/
+
+/*Obrázky na konci stránky------------------------------------------*/
+.image-section{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: calc(4*var(--space-6));
+  padding: var(--space-5);
+  
+}
+
+.image-section img{
+  max-width: calc(10*var(--space-6));
+  height: auto;
+}
+
+/*Obrázky na konci stránky------------------------------------------*/
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;  
+  }
+  .image-section{
+    flex-direction: column;
+  }
+  .menu ul li a{
+    padding: var(--space-2) var(--space-2);
+  }
+}
+
+footer{
+    position: relative;
+    padding: var(--space-3);
+    bottom: var(--space-0);
+    width:calc(100%-(2*var(--space-3)));
+    background-color: var(--sl-color-primary-1);
+    text-align: center;
+}
