@@ -147,6 +147,10 @@ body{
   .menu ul li a{
     padding: var(--space-2) var(--space-2);
   }
+  .image-section img{
+  max-width: calc(5*var(--space-6));
+  height: auto;
+}
 }
 
 footer{
