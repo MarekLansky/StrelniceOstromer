@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-2);
+}
+
+.image-section{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: calc(4*var(--space-6));
+  padding: var(--space-5);
+  
+}
+
+.image-section img{
+  max-width: calc(10*var(--space-6));
+  height: auto;
+}
+
+h1{
+    font-size: var(--font-size-3xl);
+}
+
+h2{
+  font-size: var(--font-size-2xl);
+}
+  
+h3{
+  font-size: var(--font-size-l);
+}
+p{
+  font-size: var(--font-size-s);
+}
+

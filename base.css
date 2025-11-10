@@ -1,0 +1,11 @@
+body{
+  background: linear-gradient(to bottom , var(--sl-color-primary-4), var(--sl-color-neutral-2));
+  padding: var(--space-0);
+  margin: var(--space-0);
+}
+
+html{
+    padding: var(--space-0);
+    margin: var(--space-0);
+}
+
