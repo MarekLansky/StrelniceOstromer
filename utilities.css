@@ -16,7 +16,7 @@
 }
 
 .image-section img{
-  max-width: calc(10*var(--space-6));
+  max-width: calc(10*var(--width-1));
   height: auto;
 }
 

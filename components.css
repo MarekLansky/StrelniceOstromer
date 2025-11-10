@@ -6,7 +6,7 @@
     justify-content: center;
     background-color: var(--sl-color-primary-1);
     padding: var(--space-0);
-    margin: var(--space-0);
+    margin: var(--margin-0);
     
 
 }
@@ -40,7 +40,7 @@
   
   height: 1.5rem;
   width: 1.5rem;
-  margin-right: var(--space-2);
+  margin-right: var(--margin-2);
 
 }
 /*navigace------------------------------------------------------------------------------*/
@@ -74,8 +74,7 @@
   flex: 1;                        
   background-color: var(--sl-color-primary-1);      
   padding: var(--space-2);
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .box ul{
