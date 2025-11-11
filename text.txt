@@ -4,7 +4,7 @@
 <p>Nove vybavení střelnice - terče, zbraně</p>
 <p>Střelnice pro veřejnost otevřena každou poslední sobotu v měsíci od 9:00 do 15:00</p>
 <p>hsuahsuzaiahus</p>
-<p>proč to nejde<p/>
+
 
 #SOUTEZE
 <h3>Jarní soutěž</h3>
@@ -13,5 +13,5 @@
 <h3>Velká cena Ostroměře</h3>
 <p><strong>Datum: </strong>10.8.2024 (sobota)</p>
 <p><strong>Disciplína: </strong>LM, SM - 60 ran</p>
-<p>lolík</p>
+<p>lol</p>
 
