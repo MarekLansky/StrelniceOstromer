@@ -1,4 +1,4 @@
-fetch('data/text.txt')
+fetch('text.txt')
   .then(response => response.text())   // ← místo .json() použiješ .text()
   .then(text => {
     console.log(text);                 // vypíše text do konzole
