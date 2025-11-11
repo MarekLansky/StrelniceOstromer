@@ -1,1 +1,4 @@
-Ahojda
+<p>Přehlídka vojenské techniky</p>
+<p>Lekce pro zíjemce o střelecký průkaz</p>
+<p>Nove vybavení střelnice - terče, zbraně</p>
+<p>Střelnice pro veřejnost otevřena každou poslední sobotu v měsíci od 9:00 do 15:00</p>
