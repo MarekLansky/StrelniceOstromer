@@ -8,7 +8,7 @@ async function getText(file) {
   const parts = parseSections(text);
 
   // a vložíme jednotlivé části na stránku
-  document.getElementById("aktuality").innerHTML = parts.#AKTUALITY;
+  document.getElementById("aktuality").innerHTML = parts.AKTUALITY;
   document.getElementById("souteze").innerHTML = parts.SOUTEZE;
 
 }
