@@ -20,7 +20,11 @@
     --sl-color-neutral-1: #000 ;
     --sl-color-neutral-2: #FFFF;
 
-    
+    --sl-text-color-1: #112A46;
+    --sl-text-color-2: #FFFF;
+    --sl-text-color-3: #112A46;
+    --sl-text-color-4: #112A46;
+
     --space-0: 0;
     --space-1: 0.25rem;
     --space-2: 0.5rem;

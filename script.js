@@ -7,10 +7,24 @@ async function getText(file) {
   // rozdělíme text podle našich oddělovačů
   const parts = parseSections(text);
 
-  // a vložíme jednotlivé části na stránku
-  document.getElementById("aktuality").innerHTML = parts.AKTUALITY;
-  document.getElementById("souteze").innerHTML = parts.SOUTEZE;
+  // a vložíme jednotlivé části na stránku – jen pokud element existuje
+  const aktuality = document.getElementById("aktuality");
+  if (aktuality) aktuality.innerHTML = parts.AKTUALITY || "";
 
+  const souteze = document.getElementById("souteze");
+  if (souteze) souteze.innerHTML = parts.SOUTEZE || "";
+
+  const vysledky = document.getElementById("vysledky");
+  if (vysledky) vysledky.innerHTML = parts.VYSLEDKY || "";
+
+  const kontakty = document.getElementById("kontakty");
+  if (kontakty) kontakty.innerHTML = parts.KONTAKTY || "";
+
+  const datum = document.getElementById("datum");
+  if (datum) datum.innerHTML = parts.DATUM || "";
+
+  const dalsisouteze = document.getElementById("dalsisouteze");
+  if (dalsisouteze) dalsisouteze.innerHTML = parts.DALSISOUTEZE || "";
 }
 
 function parseSections(text) {
@@ -24,3 +38,4 @@ function parseSections(text) {
   }
   return sections;
 }
+

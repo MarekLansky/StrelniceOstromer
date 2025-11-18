@@ -5,6 +5,7 @@
     overflow: hidden;
     justify-content: center;
     background-color: var(--sl-color-primary-1);
+    color: var(--sl-text-color-1);
     padding: var(--space-0);
     margin: var(--margin-0);
     
@@ -33,7 +34,7 @@
 
 .menu ul li a.active{
     background-color: var(--sl-color-primary-2);  
-    color: var(--sl-color-neutral-2) 
+    color: var(--sl-text-color-2) 
 }
 
 .menu img{
@@ -49,7 +50,7 @@
 
 .button {
   border: none;
-  color: var(--sl-color-neutral-2);
+  color: var(--sl-text-color-2);
   background-color: var(--sl-color-primary-2);
   padding: var(--space-3) var(--space-4);
   text-align: center;
@@ -72,7 +73,8 @@
   border:var(--border-1);
   border-radius: var(--border-radius-1); 
   flex: 1;                        
-  background-color: var(--sl-color-primary-1);      
+  background-color: var(--sl-color-primary-1); 
+  color: var(--sl-text-color-1);     
   padding: var(--space-2);
   text-align: center; 
 }

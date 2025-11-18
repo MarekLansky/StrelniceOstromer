@@ -1,10 +1,8 @@
 #AKTUALITY
 <p>Přehlídka vojenské techniky</p>
-<p>Lekce pro zíjemce o střelecký průkaz</p>
-<p>Nove vybavení střelnice - terče, zbraně</p>
+<p>Lekce pro zájemce o střelecký průkaz</p>
+<p>Nové vybavení střelnice - terče, zbraně</p>
 <p>Střelnice pro veřejnost otevřena každou poslední sobotu v měsíci od 9:00 do 15:00</p>
-<p>hsuahsuzaiahus</p>
-<p>ne</p>9
 
 
 #SOUTEZE
@@ -14,5 +12,53 @@
 <h3>Velká cena Ostroměře</h3>
 <p><strong>Datum: </strong>10.8.2024 (sobota)</p>
 <p><strong>Disciplína: </strong>LM, SM - 60 ran</p>
-<p>lol</p>
 
+
+#VYSLEDKY
+<h3>Jarní soutěž</h3>
+<p><strong>Datum: </strong>23.3.2024 (sobota)</p>
+<a href="http://strelniceostromer.wz.cz/2024_JarniSoutez.pdf" target="_blank">
+<p>Prepozice závodu</p>
+</a>
+         
+<h3>Velká cena Ostroměře</h3>
+<p><strong>Datum: </strong>10.8.2024 (sobota)</p>
+<p><strong>Disciplína: </strong>LM, SM - 60 ran</p>
+<a href="http://strelniceostromer.wz.cz/VelkaCenaOstromere24.pdf" target="_blank">
+<p>Prepozice závodu</p>
+</a>
+
+<h3>Podzimní soutěž z předovek</h3>
+<p><strong>Datum: </strong>19.10.2024 (sobota)</p>
+<a href="http://strelniceostromer.wz.cz/2024_Podzimni_soutez.pdf" target="_blank">
+<p>Prepozice závodu</p>
+</a>
+
+#KONTAKTY
+<p>hospodář Miloslav Adamec, 737 902 150</p>
+<p>předsedkyně Alena Krejčová, 606 743 055</p>
+<p>jednatel Jaromír Pácal, 605 929 968</p>
+<p>Dana Hermochová, 724 091 382 - příjem přihlášek na závody</p>
+
+#DATUM
+Poslední aktualizace: 11.11.2025
+
+#DALSISOUTEZE
+<h3>Jarní soutěž</h3>
+            <p><strong>Datum: </strong>23.3.2024 (sobota)</p>
+            <a href="http://strelniceostromer.wz.cz/2024_JarniSoutez.pdf" target="_blank">
+                <p>Prepozice závodu</p>
+            </a>
+            
+            <h3>Velká cena Ostroměře</h3>
+            <p><strong>Datum: </strong>10.8.2024 (sobota)</p>
+            <p><strong>Disciplína: </strong>LM, SM - 60 ran</p>
+            <a href="http://strelniceostromer.wz.cz/VelkaCenaOstromere24.pdf" target="_blank">
+                <p>Prepozice závodu</p>
+            </a>
+
+            <h3>Podzimní soutěž z předovek</h3>
+            <p><strong>Datum: </strong>19.10.2024 (sobota)</p>
+            <a href="http://strelniceostromer.wz.cz/2024_Podzimni_soutez.pdf" target="_blank">
+                <p>Prepozice závodu</p>
+            </a>
