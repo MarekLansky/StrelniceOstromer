@@ -8,5 +8,6 @@ html{
     padding: var(--space-0);
     margin: var(--space-0);
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--sl-color-neutral-2);
 }
 
