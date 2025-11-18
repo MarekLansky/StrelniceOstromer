@@ -1,3 +1,10 @@
+/*
+<p>text</p>
+<p><strong>Zvýrazněný text</strong>zbytek textu </p>
+<h3>Velký nadpis</h3>
+<a href="odkaz na pdf" target="_blank"><p>Text který se zobrazí místo dlouhého odkazu</p></a>
+*/
+
 #AKTUALITY
 <p>Přehlídka vojenské techniky</p>
 <p>Lekce pro zájemce o střelecký průkaz</p>
@@ -11,7 +18,7 @@
             
 <h3>Velká cena Ostroměře</h3>
 <p><strong>Datum: </strong>10.8.2024 (sobota)</p>
-<p><strong>Disciplína: </strong>LM, SM - 60 ran</p>
+<p><strong>Disciplíny: </strong>LM, SM - 60 ran</p>
 
 
 #VYSLEDKY
