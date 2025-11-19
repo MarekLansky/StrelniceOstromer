@@ -5,6 +5,10 @@
   padding: var(--space-2);
 }
 
+.container li{
+  list-style: none;
+}
+
 .image-section{
   display: flex;
   position: relative;
