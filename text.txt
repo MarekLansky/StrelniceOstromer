@@ -10,7 +10,7 @@
 <p>Lekce pro zájemce o střelecký průkaz</p>
 <p>Nové vybavení střelnice - terče, zbraně</p>
 <p>Střelnice pro veřejnost otevřena každou poslední sobotu v měsíci od 9:00 do 15:00</p>
-<p>ahoj</p>
+
 
 
 #SOUTEZE
@@ -49,7 +49,7 @@
 <p>Dana Hermochová, 724 091 382 - příjem přihlášek na závody</p>
 
 #DATUM
-Poslední aktualizace: 11.11.2025
+Poslední aktualizace: 19.11.2025
 
 #DALSISOUTEZE
 <h3>Jarní soutěž</h3>
