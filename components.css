@@ -83,3 +83,7 @@
 .box ul{
     text-align: left;
 }
+
+.box a{
+  color: black;
+}
