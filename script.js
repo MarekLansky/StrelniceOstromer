@@ -39,3 +39,9 @@ function parseSections(text) {
   return sections;
 }
 
+const btn = document.getElementById("hamburgerBtn");
+  const menu = document.getElementById("link");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("open");
+  });

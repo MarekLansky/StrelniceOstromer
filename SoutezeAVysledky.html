@@ -14,53 +14,64 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Domovská stránka</a></li>
-                <li><a href="Fotogalerie.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Fotogalerie</a></li>
-                <li><a href="SoutezeAVysledky.html" class="active"><img  src="Crosshair.png" alt="Crosshair">Soutěže a výsledky</a></li>
-                <li><a href="Dalsi.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Další</a></li>
-                <li><a href="Kontakty.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Kontakty</a></li>                
+        <nav class="menu relative flex text-center">
+            
+            <div class="hamburger" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu__list" id="link">
+                <li class="menu__item active"><a href="index.html" class="menu__link p-2 text-center" ><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Domovská stránka</a></li>
+                <li class="menu__item"><a href="Fotogalerie.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Fotogalerie</a></li>
+                <li class="menu__item"><a href="SoutezeAVysledky.html" class="menu__link p-2 text-center active"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Soutěže a výsledky</a></li>
+                <li class="menu__item"><a href="Dalsi.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Další</a></li>
+                <li class="menu__item"><a href="Kontakty.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Kontakty</a></li>
             </ul>
         </nav>
     </header>
 
-<section class="hero-image">
-    <div class="hero-text">
+<section class="hero-image relative">
+    <div class="hero-text p-5">
         <h1>Střelecký klub Ostroměř</h1>
     </div>
-</section>    
+</section>       
 
 
 
-<div class="container">
-    <article class="box">
+<div class="container flex p-2">
+    <article class="box p-2 text-center">
         <h2>Soutěže</h2>
-        <ul>
-            <li><p id="dalsisouteze">Načítám...</p></li>
+        <ul class="box__list">
+            <li class="container__item"><p id="dalsisouteze">Načítám...</p></li>
         </ul>
     </article>
 
-    <article class="box">
+    <article class="box p-2 text-center">
         <h2>Výsledky</h2>
-        <ul>
-            <li><p id="vysledky">Načítám...</p></li>
+        <ul class="box__list">
+            <li class="container__item"><p id="vysledky">Načítám...</p></li>
         </ul>
     </article>
 </div>
 
-<div class="image-section">
+<div class="image-section flex relative">
     <a href="index.html">
-      <img src="Logo.png" alt="Znak střeleckého klubu Ostroměř">
-      </a>
-      <a href="https://www.shooting.cz/cs" target="_blank">
-      <img src="logo-css.png" alt="Znak českého střelckého svazu">
-      </a>
+      <img class="image-section__img" src="Logo.png" alt="Znak střeleckého klubu Ostroměř">
+    </a>
+
+    <a href="https://www.shooting.cz/cs" target="_blank">
+      <img class="image-section__img" src="logo-css.png" alt="Znak českého střelckého svazu">
+    </a>
 </div> 
 
 
-<footer>
-    <p>Marek Lánský copyright datum posledí úpravy: 3.11.2025</p>
+<footer class="relative p-2 text-center">
+    <p>©Vytvořeno Markem Lánským jako studentská zápočtová práce</p>
+    <p>Kontatkní údaje: lanskma3@uhk.cz | Datum poslední úpravy 11.11.2025</p>    
+    <p><strong>Obsah je smyšlený a slouží ke studijním účelům</strong></p>
 </footer>
     
 <script src="script.js"></script> 

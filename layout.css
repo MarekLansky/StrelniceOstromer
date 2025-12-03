@@ -1,49 +1,21 @@
-/*Hero sekce----------------------------------------------------------------------------*/
-.hero-image{
-  background-image: url("Naboje.jpg");;
-  height: var(--width-75);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
+.container {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-2);
 }
 
-.hero-text{
-  position: relative;
-  color: var(--sl-color-neutral-2);
-  max-width: var(--width-100);
-  padding: var(--space-4);
-}
-
-
-
-/*Hero sekce----------------------------------------------------------------------------*/
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
-    flex-direction: column;  
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--space-2);
   }
-  .image-section{
-    flex-direction: column;
-    padding: var(--space-4);
-  }
-  .menu ul li a{
-    padding: var(--space-2) var(--space-2);
-  }
-  .image-section img{
-  max-width: calc(6*var(--width-1));
-  height: auto;
-}
-}
+  
+  } 
 
 footer{
-    position: relative;
-    padding: var(--space-3);
     bottom: var(--space-0);
-    width:calc(var(--width-100) - var(--width-3));
+    width:calc(var(--width-100)- 2*var(--space-3));
     background-color: var(--sl-color-primary-1);
-    text-align: center;
     color: var(--sl-text-color-1);
 }

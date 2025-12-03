@@ -8,51 +8,60 @@
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="components.css">
     <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="theme.css">
-    <link rel="stylesheet" href="Page.css">
-</head>
-<body>
-    <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Domovská stránka</a></li>
-                <li><a href="Fotogalerie.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Fotogalerie</a></li>
-                <li><a href="SoutezeAVysledky.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Soutěže a výsledky</a></li>
-                <li><a href="Dalsi.html" class="hover"><img  src="Crosshair.png" alt="Crosshair">Další</a></li>               
-                <li><a href="Kontakty.html" class="active"><img  src="Crosshair.png" alt="Crosshair">Kontakty</a></li>
-
-                
+<header>
+        <nav class="menu relative flex text-center">
+            
+            <div class="hamburger" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu__list" id="link">
+                <li class="menu__item active"><a href="index.html" class="menu__link p-2 text-center" ><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Domovská stránka</a></li>
+                <li class="menu__item"><a href="Fotogalerie.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Fotogalerie</a></li>
+                <li class="menu__item"><a href="SoutezeAVysledky.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Soutěže a výsledky</a></li>
+                <li class="menu__item"><a href="Dalsi.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Další</a></li>
+                <li class="menu__item"><a href="Kontakty.html" class="menu__link p-2 text-center active"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Kontakty</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero-image">
-        <div class="hero-text">
+    <section class="hero-image relative">
+        <div class="hero-text p-5">
             <h1>Střelecký klub Ostroměř</h1>
         </div>
     </section>  
 
-    <div class="container">
-    <article class="box">
+    <div class="container flex p-2">
+    <article class="box p-2 text-center">
         <h2>Kontaktní osoby</h2>
         <p id="kontakty">Načítám...</p>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.3569032682576!2d15.553048375788265!3d50.378544992539595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e9eb1e4ed8bed%3A0xfcedd18f691a2934!2zU1BPUlRPVk7EmiBTVMWYRUxFQ0vDnSBLTFVCIE9TVFJPTcSaxZg!5e0!3m2!1scs!2scz!4v1760954552269!5m2!1scs!2scz"
+        <iframe class="p-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.3569032682576!2d15.553048375788265!3d50.378544992539595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e9eb1e4ed8bed%3A0xfcedd18f691a2934!2zU1BPUlRPVk7EmiBTVMWYRUxFQ0vDnSBLTFVCIE9TVFJPTcSaxZg!5e0!3m2!1scs!2scz!4v1760954552269!5m2!1scs!2scz"
         allowfullscreen=""
         loading ="lazy"
         ></iframe>
     </article>
     </div>
 
-    <div class="image-section">
-        <a href="index.html"><img src="Logo.png" alt="Znak střeleckého klubu Ostroměř"></a>
-        <a href="https://www.shooting.cz/cs" target="_blank"><img src="logo-css.png" alt="Znak českého střelckého svazu"></a>
-    </div> 
+    <div class="image-section flex relative">
+    <a href="index.html">
+      <img class="image-section__img" src="Logo.png" alt="Znak střeleckého klubu Ostroměř">
+    </a>
+
+    <a href="https://www.shooting.cz/cs" target="_blank">
+      <img class="image-section__img" src="logo-css.png" alt="Znak českého střelckého svazu">
+    </a>
+</div>
     
     
 
-    <footer>
-        <p>Marek Lánský copyright datum posledí úpravy: 3.11.2025</p>
+    <footer class="relative p-2 text-center">
+        <p>©Vytvořeno Markem Lánským jako studentská zápočtová práce</p>
+        <p>Kontatkní údaje: lanskma3@uhk.cz | Datum poslední úpravy 11.11.2025</p> 
+        <p><strong>Obsah je smyšlený a slouží ke studijním účelům</strong></p> 
     </footer>
 
     <script src="script.js"></script> 

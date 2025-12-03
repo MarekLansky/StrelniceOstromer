@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="base.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+ 
+</style>
+</head>
+
+<body>
+
+<nav class="menu">
+
+  <div class="hamburger" id="hamburgerBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="menu__list" id="link">
+    <li class="menu__item"><a href="index.html" class="menu__link active p-2 text-center" ><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Domovská stránka</a></li>
+    <li class="menu__item"><a href="Fotogalerie.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Fotogalerie</a></li>
+    <li class="menu__item"><a href="SoutezeAVysledky.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Soutěže a výsledky</a></li>
+    <li class="menu__item"><a href="Dalsi.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Další</a></li>
+    <li class="menu__item"><a href="Kontakty.html" class="menu__link p-2 text-center"><img class="menu__logo" src="Crosshair.png" alt="Crosshair">Kontakty</a></li>
+  </ul>
+</nav>
+
+<script>
+  const btn = document.getElementById("hamburgerBtn");
+  const menu = document.getElementById("link");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("open");
+  });
+</script>
+
+</body>
+</html>
