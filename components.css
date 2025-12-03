@@ -2,7 +2,7 @@
  .menu {
     background-color: var(--sl-color-primary-1);
     color: var(--sl-text-color-1);
-    padding: var(--space-5);
+    padding: 2rem;
   }
 
 
@@ -18,7 +18,7 @@
 
   .hamburger span {
     height: 3px;
-    background: var(--sl-color-neutral-2);
+    background: var(--sl-color-neutral-1);
     width: 100% ;
     transition: .3s;
     
@@ -60,7 +60,7 @@
   @media (max-width: 1024px) {
     .menu__list {
       position: absolute;
-      top: 0;
+      top:0;
       left: 0;
       right: 0;
       flex-direction: column;
@@ -69,20 +69,14 @@
       margin: 0;
       padding: 0;
       border-style: solid;
-      width: 100% ;  
-      box-sizing: border-box;
-      overflow-x: hidden;
-    }
-
-    .menu{
-      padding: 0;
-      background-color: var(--sl-color-primary-2);
-      padding: 2rem;
+      overflow: hidden;
+      width: 100%;
     }
 
     .menu__list.open {
       display: block;
       z-index: 10; 
+      
     }
 
     .menu__item {
@@ -96,24 +90,18 @@
       padding: 2rem;
       display: inline-flex;
       align-items: center;
-      
     }
   }
 
   /* Desktop verze: hamburger skryt, menu vedle sebe */
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .hamburger {
       display: none;
       
-      
     }
     .menu{
-      padding: 0;
-      z-index: 10;
+      padding: 0;  
     }
-    
-
-    
     .menu__list {
       list-style-type: none;
       list-style: none;
@@ -132,8 +120,6 @@
       color: var(--sl-color-neutral-1); 
       padding: 2rem;
       text-align: center;
-      
-      
       
       
       
@@ -209,22 +195,22 @@
 @media (min-width: 768px) {
   .image-section{
     flex-direction: row;
-    gap: calc(2*var(--space-6));
+    gap: calc(2*var(--space-4));
   }
   .image-section__img{
     max-width: calc(6*var(--width-1));
 }
 }
-@media(min-width: 1024px) {
+
+@media (min-width: 1024px) {
   .image-section{
     flex-direction: row;
-    gap: calc(6*var(--space-4));
+    gap: calc(4*var(--space-6));
   }
   .image-section__img{
     max-width: calc(8*var(--width-1));
-  }
 }
-
+}
 .container__item{
   list-style: none;
 }
