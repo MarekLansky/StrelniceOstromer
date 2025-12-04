@@ -1,8 +1,10 @@
 /*navigace------------------------------------------------------------------------------*/
  .menu {
-    background-color: var(--sl-color-primary-1);
-    color: var(--sl-text-color-1);
-    padding: 2rem;
+    background-color: var(--color-primary-1);
+    color: var(--text-color-1);
+    padding: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
 
@@ -18,7 +20,7 @@
 
   .hamburger span {
     height: 3px;
-    background: var(--sl-color-neutral-1);
+    background: var(--color-neutral-1);
     width: 100% ;
     transition: .3s;
     
@@ -31,27 +33,27 @@
   }
 
   .menu__link {
-    color: var(--sl-color-neutral-1);
+    color: var(--color-neutral-1);
     text-decoration: none;
     display: block;
   }
 
   .menu__logo{
   
-  height: 1.5rem;
-  width: 1.5rem;
-  margin-right: 2rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  margin-right: .5rem;
 
 }
 .menu__link:hover {
-  background-color: var(--sl-color-primary-3);
-  color: var(--sl-color-neutral-1);
+  background-color: var(--color-primary-3);
+  color: var(--color-neutral-1);
   box-sizing: border-box;
 }
 
 .menu__link.active {
-  background-color: var(--sl-color-primary-2) !important;  
-  color: var(--sl-text-color-2) ;
+  background-color: var(--color-primary-2) !important;  
+  color: var(--text-color-2) ;
   box-sizing: border-box;
   
 }
@@ -64,18 +66,20 @@
       left: 0;
       right: 0;
       flex-direction: column;
-      background: var(--sl-color-primary-1);
+      background: var(--color-primary-1);
       display: none;
       margin: 0;
       padding: 0;
       border-style: solid;
-      overflow: hidden;
-      width: 100%;
+      box-sizing: border-box;
+      
     }
 
     .menu__list.open {
       display: block;
       z-index: 10; 
+      width: 100%;
+      overflow: hidden;
       
     }
 
@@ -89,7 +93,7 @@
       text-align: center;
       padding: 2rem;
       display: inline-flex;
-      align-items: center;
+      align-items: center;  
     }
   }
 
@@ -109,6 +113,7 @@
       margin: var(--space-0);
       display: flex;
       padding: 0;
+      max-width: 100%;
       
       
     }
@@ -117,9 +122,10 @@
       display: inline-flex;
       align-items: center;  
       text-decoration: none;
-      color: var(--sl-color-neutral-1); 
-      padding: 2rem;
+      color: var(--color-neutral-1); 
+      padding: 1rem;
       text-align: center;
+      
       
       
       
@@ -141,7 +147,7 @@
 }
 
 .hero-text{
-  color: var(--sl-color-neutral-2);
+  color: var(--color-neutral-2);
   max-width: var(--width-100);
 }
 /*Hero sekce----------------------------------------------------------------------------*/
@@ -150,8 +156,8 @@
 
 .button {
   border: none;
-  color: var(--sl-text-color-2);
-  background-color: var(--sl-color-primary-2);
+  color: var(--text-color-2);
+  background-color: var(--color-primary-2);
   padding: var(--space-3) var(--space-4);
   text-decoration: none;
   font-size: var(--font-size-xs);
@@ -172,8 +178,8 @@
   border:var(--border-1);
   border-radius: var(--border-radius-1); 
   flex: 1;                        
-  background-color: var(--sl-color-primary-1); 
-  color: var(--sl-text-color-1);     
+  background-color: var(--color-primary-1); 
+  color: var(--text-color-1);     
 }
 
 .box__list{
@@ -195,7 +201,7 @@
 @media (min-width: 768px) {
   .image-section{
     flex-direction: row;
-    gap: calc(2*var(--space-4));
+    gap: calc(4*var(--space-4));
   }
   .image-section__img{
     max-width: calc(6*var(--width-1));

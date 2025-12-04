@@ -16,6 +16,6 @@
 footer{
     bottom: var(--space-0);
     width:calc(var(--width-100)- 2*var(--space-3));
-    background-color: var(--sl-color-primary-1);
-    color: var(--sl-text-color-1);
+    background-color: var(--color-primary-1);
+    color: var(--text-color-1);
 }
